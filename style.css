@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600&family=Roboto+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600&family=Roboto+Mono:wght@400;600&family=Rubik+Iso&display=swap');
+
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body,html{
+ height: 100%;
+ width: 100%;
+ cursor: url('./icons8-cursor-96.png'), auto;
+
+}
+
+a{
+ text-decoration: none;;
+}
+
+#main{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ background-color: rgb(85, 183, 85);
+ width: 100%;
+ height: 100%;
+ font-family: 'Roboto Mono', monospace;
+ background: url('./bCv.gif');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#title{
+ font-family: 'Rubik Iso', cursive;
+ color: #fffcf2;
+ font-size: 80px;
+ text-transform: uppercase;
+}
+
+#panel{
+ width: 80%;
+ height: 80%;
+ background-color: #0077b6;
+ border-radius: 6px;
+ overflow: hidden;
+}
+
+#ptop{
+ width: 100%;
+ height: 80px;
+ background-color: #383ac0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 0 30%;
+ gap:20px;
+}
+
+#elem{
+ display: flex;
+ align-items: center;
+ gap:10px;
+ padding-inline: 25px;
+}
+
+#box{
+ background-color: white;
+ padding: 6px;
+ border-radius: 2px;
+ font-weight: 600;
+ font-size: 25px;
+}
+
+#pbottom{
+ overflow: hidden;
+ display: flex;
+ gap:40px;
+ flex-wrap: wrap;
+ width: 100%;
+ height: calc(100% - 80px);
+ /* background-color: black; */
+ padding: 18px;
+}
+
+.bubble{
+ background-color: white;
+ width:53px;
+ height: 53px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 25px;
+ font-weight: 600;
+}
+
+.bubble:hover{
+ background-color: #00bbf9;
+ transform: scale(1.045);
+}
+
+.textCenter{
+ padding: 0;
+ width:100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ color: navy;
+ font-size: 45px;
+}
+
+.addGif{
+ background: url('./1x0.gif');
+ background-repeat: no-repeat;
+ background-size: cover;
+ backdrop-filter: blur(50px);
+}
+
+.reset-btn{
+ background-color: #00bbf9;
+ /* width:120px; */
+ height: 35px;
+ padding: 32px 64px;
+ font-size: 28px;
+ display: flex;
+ align-items: center;
+ border:2px solid black;
+ border-radius: 25px;
+ margin: 0 auto;
+ cursor: url(./icons8-minecraft-pickaxe-64.png), auto;
+}
